@@ -1,0 +1,207 @@
+.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus {
+  outline: none;
+}
+.flexslider {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.flexslider .slides > li {
+  display: none;
+  -webkit-backface-visibility: hidden;
+}
+.flexslider .slides {
+  padding: 0;
+  margin: 0;
+}
+.flexslider .slides img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  max-height:450px;
+}
+.flexslider .slides:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.flexslider .flex-direction-nav {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 38%;
+  width: 100%;
+}
+.flexslider .flex-direction-nav a {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0;
+  height: 60px;
+  position: absolute;
+  width: 60px;
+  z-index: 4;
+  background:#08615f;
+  transition: all 0.3s ease 0s;
+  border-radius:50%;
+}
+.flexslider .flex-direction-nav a.flex-prev {
+  left: 0;
+  background:#08615f;
+}
+.flexslider .flex-direction-nav a.flex-prev:hover {
+  background-color: #40798c ;
+}
+.flexslider .flex-direction-nav a.flex-next {
+  right: 0;
+}
+.flexslider .flex-direction-nav a.flex-next:hover {
+  background-color: #40798c ;
+}
+.flexslider:hover .flex-direction-nav a.flex-prev, .flexslider:hover .flex-direction-nav a.flex-next {
+  opacity: 1;
+}
+html[xmlns] .slides {
+  display: block;
+}
+.no-js .slides > li:first-child {
+  display: block;
+}
+.flex-viewport {
+  max-height: 2000px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.loading .flex-viewport {
+  max-height: 300px;
+}
+.carousel li {
+  margin-right: 5px;
+}
+.flex-direction-nav .flex-disabled {
+  opacity: 0!important;
+  filter: alpha(opacity=0);
+  cursor: default;
+}
+.flex-pauseplay span {
+  text-transform: capitalize;
+}
+.flex-pauseplay a {
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  opacity: 0.8;
+  -moz-opacity: 0.8;
+  -khtml-opacity: 0.8;
+  -webkit-opacity: 0.8;
+  z-index: 10;
+  overflow: hidden;
+  cursor: pointer;
+  color: #000;
+}
+.flex-pauseplay a.flex-play:before {
+  content: '\f003';
+}
+.flex-control-nav {
+  bottom: 0px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  z-index: 2;
+  display:none;
+}
+@media (max-width: 767px) {
+  .flex-control-nav {
+    display: none;
+  }
+}
+.flex-control-nav li {
+  display: inline-block;
+  margin: 0 1px;
+}
+.flex-control-nav li a {
+  background: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+  float: left;
+  display: block;
+  font-size: 0;
+  width: 12px;
+  height: 12px;
+  transition: all 0.3s ease 0s;
+  margin-right: 5px;
+  margin-top: 0;
+  position: relative;
+  text-indent: -9999px;
+  border: 1px solid #f02640;
+}
+.flex-control-nav li a.flex-active, .flex-control-nav li a:hover {
+  background: #f02640 none repeat scroll 0 0;
+}
+.flex-control-thumbs {
+  margin: 5px 0 0;
+  position: static;
+  overflow: hidden;
+}
+.flex-control-thumbs .flex-active {
+  opacity: 1;
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  -webkit-opacity: 1;
+  cursor: default;
+}
+.flex-control-thumbs li {
+  width: 25%;
+  float: left;
+  margin: 0;
+}
+.flex-control-thumbs img {
+  width: 100%;
+  display: block;
+  opacity: .7;
+  -moz-opacity: .7;
+  -khtml-opacity: .7;
+  -webkit-opacity: .7;
+  cursor: pointer;
+}
+.flex-control-thumbs img:hover {
+  opacity: 1;
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  -webkit-opacity: 1;
+}
+.spinner {
+  min-height: 822px;
+  width: 100%;
+  margin-top: 8px;
+}
+.flexslider .flex-direction-nav a.flex-next:before {
+    content: "\f105";
+    font-family: "FontAwesome";
+    font-size: 28px;
+    vertical-align: bottom;
+    display: inline-block;
+    padding: 17px 26px;
+    color: #fff;
+}
+.flexslider .flex-direction-nav a.flex-prev:before {
+    content: "\f104";
+    font-family: "FontAwesome";
+    font-size: 28px;
+    vertical-align: bottom;
+    display: inline-block;
+    padding: 17px 26px;
+    color: #fff;
+}
