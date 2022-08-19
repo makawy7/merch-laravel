@@ -1,0 +1,108 @@
+
+.tm-carousel {
+  display: none;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  -ms-touch-action: pan-y;
+}
+.tm-carousel .owl-wrapper {
+  display: none;
+  position: relative;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+}
+.tm-carousel .owl-wrapper:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.tm-carousel .owl-wrapper-outer {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.tm-carousel .owl-wrapper-outer.autoHeight {
+  -webkit-transition: height 500ms ease-in-out;
+  -moz-transition: height 500ms ease-in-out;
+  -ms-transition: height 500ms ease-in-out;
+  -o-transition: height 500ms ease-in-out;
+  transition: height 500ms ease-in-out;
+}
+.tm-carousel .owl-item {
+  float: left;
+}
+.tm-carousel .owl-item .manu_image a {
+  display: inline-block;
+}
+.tm-carousel .owl-item .manu_image a img {
+  width: 100%;
+}
+.tm-carousel .owl-item:hover a img {
+  border-color: blue;
+}
+.tm-carousel .owl-wrapper,
+.tm-carousel .owl-item {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  text-align: center;
+}
+.customNavigation {
+  position: relative;
+  top: 0px;
+  right: 0;
+  margin: 0;
+  text-align: right;
+  direction: ltr !important;
+  position: absolute;
+  float: right;
+}
+.customNavigation a.prev {
+  color: #a3a3a3;
+}
+.customNavigation a.prev:hover {
+  color: #333;
+}
+.customNavigation a.next {
+  color: #a3a3a3;
+}
+.customNavigation a.next:hover {
+  color: #333;
+}
+.customNavigation a:hover {
+  color: #333;
+}
+.customNavigation a:hover i {
+  color: white;
+  background:url("../images/sprite.png") no-repeat scroll right -37px bottom -9px;
+}
+#views_block .customNavigation a.thumbs_list_prev {
+  left: 0;
+  right: auto;
+  top: 10px;
+}
+#views_block .customNavigation a.thumbs_list_next {
+  right: 0;
+  top: 10px;
+}
+#tm-tabcontent .tab-content #datasheet {
+  margin: 0;
+}
+.customNavigation a.next:before {
+    content: "\f105";
+    font-family: "FontAwesome";
+    font-size: 25px;
+    vertical-align: -5px;
+}
+.customNavigation a.prev:before {
+    content: "\f104";
+    font-family: "FontAwesome";
+    font-size: 25px;
+    vertical-align: -5px;
+}

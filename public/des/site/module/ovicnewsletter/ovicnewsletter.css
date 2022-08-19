@@ -1,0 +1,252 @@
+
+#overlay{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
+    opacity:0.8;
+    filter:alpha(opacity=80);
+    background: black;
+    width: 100%;
+    height: 100%;
+}
+
+.ovicnewsletter{
+	padding-top:5%;
+    background:rgba(0, 0, 0, 0.8);
+    z-index: 99991;
+    position: fixed;    
+    top: 0;
+    
+}
+.ovicnewsletter .inner{
+    position:  relative;
+	width:70%;
+	margin:0 auto;
+}
+.ovicnewsletter-close{
+    width: 28px;
+    height: 28px;
+    background: #E52E04;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+}
+.ovicnewsletter-close:hover{
+    background-color:rgba(229, 46, 4, 0.8)
+}
+.ovicnewsletter-close a{
+    display: block;
+    line-height: 26px;
+    color: #fff !important;
+    font-family: monospace;
+    font-size: 20px;
+    font-size: 18px;
+} 
+.ovicnewsletter .inner{
+    padding: 15px 20px;
+}
+.pop{
+	float: right;
+    height: 100%;
+    padding: 30% 20%;
+    width: 100%;
+	background:url(../../images/pop.jpg);
+}
+.pop2{
+	float: right;
+    height: 100%;
+    padding: 30% 20%;
+    width: 100%;
+	background:#fff !important;
+}
+.pop .box{
+	padding:10%;
+	border:0;
+	margin:0;
+}
+.pop2 .box2{
+	padding:7.8% 16%;
+	border:0;
+	margin:0;
+}
+
+.pop .form-control{
+	text-align:center;
+	color:#fff;
+}
+
+.pop .form-group select {
+	text-align:center;
+	-webkit-appearance: none;
+    -moz-appearance: none; 
+    text-indent: 0.01px;
+ 	text-overflow: "";
+ 	background:url(../../images/icon-map.png) no-repeat!important;
+ 	background-position: left 20px center!important;
+ 	background-color:#00accd!important;
+ 	cursor:pointer;
+	line-height:normal!important;
+}
+
+@media (min-width: 768px){
+	.ovicnewsletter{
+	    width: 100%;
+		height:100%;
+	}
+    p.text-n1{
+	    text-align:center;
+	margin-bottom:10px;
+	color:#3e1406;
+	font:400 14px/28px "Droid Arabic Kufi",sans-serif;
+	}
+	p.text-n2{
+	    font-family: UTM banqueR;
+	    font-size: 48px;
+	    height: 40px;
+	    line-height: 40px;
+	}
+	p.text-n2 a{
+		position:absolute;
+		bottom:30px;
+		right:10%;
+	color:#3e1406;
+	font:600 14px/28px "Droid Arabic Kufi",sans-serif;	
+	}
+	.pop{
+	float: right;
+    height: 100%;
+    padding: 30% 20%;
+    width: 100%;
+	background:url(../../images/pop.jpg);
+}
+.pop2{
+	float: right;
+    height: 100%;
+    padding: 30% 20%;
+    width: 100%;
+	background:#fff !important;
+}
+.pop .box{
+	padding:10%;
+	border:0;
+	margin:0;
+}
+.pop2 .box2{
+	padding:7.8% 16%;
+	border:0;
+	margin:0;
+}
+
+.pop .form-control{
+	text-align:center;
+	color:#fff;
+}
+
+.pop .form-group select {
+	text-align:center;
+	-webkit-appearance: none;
+    -moz-appearance: none; 
+    text-indent: 0.01px;
+ 	text-overflow: "";
+ 	background:url(../../images/icon-map.png) no-repeat!important;
+ 	background-position: left 20px center!important;
+ 	background-color:#00accd!important;
+ 	cursor:pointer;
+	line-height:normal!important;
+}
+
+}
+
+@media (max-width: 767px){
+    .ovicnewsletter{
+	    width: 100%;
+		height:100%;
+	}
+    p.text-n1{
+	    color: #666;
+		margin-bottom:10px;
+	    font:400 13px/28px "Droid Arabic Kufi",sans-serif;
+	}
+	p.text-n2{
+	    font-family: UTM banqueR;
+	    font-size: 48px;
+	    height: 40px;
+	    line-height: 40px;
+	}
+	p.text-n2 a{
+		position:absolute;
+		bottom:10px;
+		right:10%;
+	color:#3e1406;
+	font:600 14px/28px "Droid Arabic Kufi",sans-serif;	
+	}
+	
+	.pop{
+	float: right;
+    height: 100%;
+    padding: 10% 0%;
+    width: 100%;
+	background:url(../../images/pop.jpg);
+}
+.pop2{
+	float: right;
+    height: 100%;
+    padding: 10% 20%;
+    width: 100%;
+	background:#fff !important;
+}
+.pop .box{
+	padding:10%;
+	border:0;
+	margin:0;
+}
+.pop2 .box2{
+	padding:7.8% 16%;
+	border:0;
+	margin:0;
+}
+
+.pop .form-control{
+	text-align:center;
+	color:#fff;
+}
+
+.pop .form-group select {
+	text-align:center;
+	-webkit-appearance: none;
+    -moz-appearance: none; 
+    text-indent: 0.01px;
+ 	text-overflow: "";
+ 	background:url(../../images/icon-map.png) no-repeat!important;
+ 	background-position: left 20px center!important;
+ 	background-color:#00accd!important;
+ 	cursor:pointer;
+	line-height:normal!important;
+}
+
+}
+@media (max-width: 480px) {
+ .pop{
+	float: right;
+    height: 100%;
+    padding: 10% 0%;
+    width: 100%;
+	background:url(../../images/pop.jpg);
+}
+.pop2{
+	float: right;
+    height: 100%;
+    padding: 10% 0%;
+    width: 100%;
+	background:#fff !important;
+}
+	p.text-n2 a{
+		position:absolute;
+		bottom:10px;
+		right:10%;
+	color:#3e1406;
+	font:600 14px/28px "Droid Arabic Kufi",sans-serif;	
+	}
+}
