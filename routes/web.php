@@ -18,7 +18,7 @@ Route::get('/admin/login','Admin\AdminController@adminlogin')->name('adminlogin'
 Route::get('/','HomeController@index')->name('index');
 
 //Products
-Route::get('/products/{slug}','HomeController@showproduct')->name('show.product');
+Route::get('/product/{slug}','HomeController@showproduct')->name('show.product');
 Route::get('/sub/{slug}','HomeController@showsubcat')->name('show.subcat');
 Route::get('/type/{slug}','HomeController@showtype')->name('show.type');
 Route::get('/extoptions','HomeController@getextoptions')->name('get.extoptions');
